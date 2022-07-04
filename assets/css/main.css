@@ -182,7 +182,7 @@ section {
 }
 .scroll-top i {
   font-size: 24px;
-  color: #000;
+  color: #fff;
   line-height: 0;
 }
 .scroll-top:hover {
@@ -1489,7 +1489,7 @@ ul.cloud a:focus::before,
 }
 .features .nav-link.active {
   transition: 0.3s;
-  background: var(--color-secondary) linear-gradient(rgba(var(--color-primary-rgb), 0.95), rgba(var(--color-primary-rgb), 0.6));
+  background: #FFCA27;
   border-color: var(--color-primary);
 }
 .features .nav-link.active h4 {
