@@ -13,6 +13,7 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 a {
@@ -26,7 +27,24 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif !important;
+  color:#000;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif !important;
+  color:#000;
+}
+
+b{
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700;
+  color:#000;
 }
 
 /*--------------------------------------------------------------
@@ -2127,11 +2145,13 @@ ul.cloud a:focus::before,
 .contact .info h3 {
   font-weight: 600;
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 .contact .info p {
   color: var(--color-secondary-light);
   margin-bottom: 30px;
   font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
 }
 .contact .info-item + .info-item {
   padding-top: 20px;
